@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo 1.11 c Livro JS</title>
+</head>
+
+</html>
+
+<script>
+  let produto = Number(prompt('Insira o valor do produto'));
+
+  let desconto = 0.1;
+  let parcela = 3;
+  let precoTotal =  produto - (produto * desconto);
+  let precoParcelado = produto / parcela;
+
+  alert(`O produto sairá por R${precoTotal.toFixed(2)} à vista ou em até ${parcela} vezes de R$: ${precoParcelado.toFixed(2)}`);
+</script>
